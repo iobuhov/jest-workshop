@@ -1,7 +1,6 @@
 {
     "extends": "@mendix/tsconfig-web-widgets/esm-library-with-jsx",
-    "include": ["./node_modules/mendix/index.d.ts", "./**/*"],
-    "exclude": ["node_modules", "coverage"],
+    "include": ["./node_modules/mendix/index.d.ts", "./practice/**/*"],
     "compilerOptions": {
         "types": ["jest", "react"],
         "noEmit": true,
