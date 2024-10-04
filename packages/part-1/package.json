@@ -1,0 +1,29 @@
+{
+    "name": "part-1",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "@happy-dom/jest-environment": "^15.7.4",
+        "@mendix/tsconfig-web-widgets": "workspace:*",
+        "@mendix/widget-plugin-test-utils": "workspace:*",
+        "@swc/core": "^1.7.26",
+        "@swc/jest": "^0.2.36",
+        "@testing-library/dom": "^10.4.0",
+        "@testing-library/react": "^16.0.1",
+        "@testing-library/user-event": "^14.5.2",
+        "@types/big.js": "^6.2.2",
+        "@types/jest": "^29.5.13",
+        "@types/react": "^18.3.11",
+        "@types/react-dom": "^18.3.0",
+        "jest": "^29.7.0",
+        "mendix": "^10.14.44044",
+        "typescript": "^5.6.2"
+    }
+}
